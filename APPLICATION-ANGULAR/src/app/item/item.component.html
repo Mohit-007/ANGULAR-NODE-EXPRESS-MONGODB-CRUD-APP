@@ -1,0 +1,195 @@
+<!--
+
+<div class="container" >
+    <form class="form-horizontal" role="form" (ngSubmit)="post_method()">
+
+                <div class="form-group">
+                    <label for="item_name" class="control-label">ITEM NAME</label>
+                    <input type="text" id="item_name" placeholder="" [(ngModel)]="item.itemName" name="item_name" class="form-control"> 
+                </div>
+
+                <div class="form-group">
+                    <label for="item_price" class="control-label">ITEM PRICE</label>
+                    <input type="text" id="item_price" placeholder="" [(ngModel)]="item.itemPrice" name="item_price" class="form-control"> 
+                </div>
+
+                <button type="submit" class="btn btn btn-success"> ADD ITEM </button>
+    </form>
+</div>	
+
+<br>
+<br>
+<br>
+
+
+<div class="container">
+
+	<div *ngFor = "let item of items">
+        <div class="row">
+            
+            <div class = "col-lg-3"> 
+                {{item.id}} 
+            </div>
+
+            <div class = "col-lg-3"> 
+                {{item.itemName}} 
+            </div>
+
+            <div class = "col-lg-3"> 
+                {{item.itemPrice}} 
+            </div>
+            <div>
+                <button type="button" (click) = "delete_method(item.id)" value = "delete" class="btn btn-danger"> DELETE </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+-->
+
+<!--
+
+<div class="container" >
+    <form class="form-horizontal" role="form" (ngSubmit)="post_method()">
+
+                <div class="form-group">
+                    <label for="item_name" class="control-label">ITEM NAME</label>
+                    <input type="text" id="item_name" placeholder="" [(ngModel)]="item.item_name" name="item_name" class="form-control"> 
+                </div>
+
+                <div class="form-group">
+                    <label for="item_price" class="control-label">ITEM PRICE</label>
+                    <input type="text" id="item_price" placeholder="" [(ngModel)]="item.item_price" name="item_price" class="form-control"> 
+                </div>
+
+                <button type="submit" class="btn btn btn-success"> ADD ITEM </button>
+    </form>
+</div>	
+
+<br>
+<br>
+<br>
+
+
+<div class="container">
+
+	<div *ngFor = "let item of items">
+        <div class="row">
+            
+            <div class = "col-lg-3"> 
+                {{item._id}} 
+            </div>
+
+            <div class = "col-lg-3"> 
+                {{item.item_name}} 
+            </div>
+
+            <div class = "col-lg-3"> 
+                {{item.item_price}} 
+            </div>
+            <div>
+                <button type="button" (click) = "delete_method(item._id)" value = "delete" class="btn btn-danger"> DELETE </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+-->
+
+<!--
+
+<div class="container" >
+    <form class="form-horizontal" role="form" (ngSubmit)="post_method()">
+
+                <div class="form-group">
+                    <label for="item_name" class="control-label">ITEM NAME</label>
+                    <input type="text" id="item_name" placeholder="" [(ngModel)]="item.itemName" name="item_name" class="form-control"> 
+                </div>
+
+                <div class="form-group">
+                    <label for="item_price" class="control-label">ITEM PRICE</label>
+                    <input type="text" id="item_price" placeholder="" [(ngModel)]="item.itemPrice" name="item_price" class="form-control"> 
+                </div>
+
+                <button type="submit" class="btn btn btn-success"> ADD ITEM </button>
+    </form>
+</div>	
+
+<br>
+<br>
+<br>
+
+
+<div class="container">
+
+	<div *ngFor = "let item of items">
+        <div class="row">
+            
+            <div class = "col-lg-3"> 
+                {{item.id}} 
+            </div>
+
+            <div class = "col-lg-3"> 
+                {{item.itemName}} 
+            </div>
+
+            <div class = "col-lg-3"> 
+                {{item.itemPrice}} 
+            </div>
+            <div>
+                <button type="button" (click) = "delete_method(item.id)" value = "delete" class="btn btn-danger"> DELETE </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+-->
+
+<!--
+
+<div class="container" >
+    <form class="form-horizontal" role="form" (ngSubmit)="post_method()">
+
+                <div class="form-group">
+                    <label for="item_name" class="control-label">ITEM NAME</label>
+                    <input type="text" id="item_name" placeholder="" [(ngModel)]="item.ItemName" name="item_name" class="form-control"> 
+                </div>
+
+                <div class="form-group">
+                    <label for="item_price" class="control-label">ITEM PRICE</label>
+                    <input type="text" id="item_price" placeholder="" [(ngModel)]="item.ItemPrice" name="item_price" class="form-control"> 
+                </div>
+
+                <button type="submit" class="btn btn btn-success"> ADD ITEM </button>
+    </form>
+</div>	
+
+<br>
+<br>
+<br>
+
+
+<div class="container">
+
+	<div *ngFor = "let item of items">
+        <div class="row">
+            
+            <div class = "col-lg-3"> 
+                {{item.ItemId}} 
+            </div>
+
+            <div class = "col-lg-3"> 
+                {{item.ItemName}} 
+            </div>
+
+            <div class = "col-lg-3"> 
+                {{item.ItemPrice}} 
+            </div>
+            <div>
+                <button type="button" (click) = "delete_method(item.ItemId)" value = "delete" class="btn btn-danger"> DELETE </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+-->
